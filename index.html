@@ -1,10 +1,149 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title></title>
-        <link rel="stylesheet" type="text/css" href="styles.css">
-    </head>
-    <body>
-        <h1>A fantastic title</h1>
-    </body>
-</html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/style.css">
+    <title>OhMyFood Homepage</title>
+
+    <script src="https://kit.fontawesome.com/78a5c15a19.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="loader">
+        <i class="fa fa-circle-notch"></i>
+    </div>
+    <header>
+        <div>
+            <img src= "Assets/images/logo/ohmyfood.png"> 
+        </div>
+    </header>
+    <div class="loading-index">
+        <main>
+            <div class="location bg--grey">
+                <div class="row text--small bold font--grey">
+                    <i class="fas fa-map-marker-alt margin--15 r"></i>
+                    <p>Paris, Belleville</p>
+                </div>
+            </div>
+            <div class="content column center bg--light-grey">
+                <h1 class="title">Book the menu you like</h1>
+                <div class="text--medium thin font--grey margin--15 tb">
+                    <p>Discover top-of-the-art restaurants we picked for you</p>
+                </div>
+                    <a class="btn btn-main" href="#">Explore our restaurants</a>
+            </div>
+            <div class="instruction-con">
+                <h1 class="title">How it works</h1>
+                <div class="instruction">
+                    <a class="instruction__link" href="#">
+                        <div class="instruction__link__number">1</div>
+                        <i class="instruction__link__icon fas fa-mobile-alt"></i>
+                        <p class="instruction__link__text">Chose a restaurant</p>
+                    </a>
+                    <a class="instruction__link" href="#">
+                        <div class="instruction__link__number">2</div>
+                        <i class="instruction__link__icon fas fa-list-ul"></i>
+                        <p class="instruction__link__text">Create your menu</p>
+                    </a>
+                    <a class="instruction__link" href="#">
+                        <div class="instruction__link__number">3</div>
+                        <i class="instruction__link__icon fas fa-store"></i>
+                        <p class="instruction__link__text">Go enjoy it at the restaurant</p>
+                    </a>
+                </div>
+            </div>
+            <div class="restaurants-con bg--light-grey">
+                <div class="container">
+                    <h1 class="title">Restaurants</h1>
+                    <div class="restaurants">
+                        <div class="card">
+                            <a class="card__link" href="Pages/the-full-palette.html">
+                                <div class="card__link__image">
+                                    <img src="Assets/images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg" alt="Picture of the food menu">
+                                    <div class="card__link__image__special">New</div>
+                                </div>
+                                <div class="card__link__description">
+                                    <div class="card__link__description__info">
+                                        <h2 class="card__link__description__info__title">The Full Palette</h2>
+                                        <p class="card__link__description__info__location">New York</p> 
+                                    </div>
+                                    <i class="heart" >
+                                        <i class="far fa-heart heart__icon"></i>
+                                        <i class="fas fa-heart heart__icon heart__icon-solid"></i>
+                                    </i>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="card">
+                            <a class="card__link" href="LINK TO PAGE">
+                                <div class="card__link__image">
+                                    <img class="ob-pos--up" src="Assets/images/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg" alt="Picture of the food menu">
+                                    <div class="card__link__image__special">New</div>
+                                </div>
+                                <div class="card__link__description">
+                                    <div class="card__link__description__info">
+                                        <h2 class="card__link__description__info__title">The Enchanted Plate</h2>
+                                        <p class="card__link__description__info__location">New York</p>                                    
+                                    </div>
+                                    <i class="heart" >
+                                        <i class="far fa-heart heart__icon"></i>
+                                        <i class="fas fa-heart heart__icon heart__icon-solid"></i>
+                                    </i>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="card">
+                            <a class="card__link" href="LINK TO PAGE">
+                                <div class="card__link__image">
+                                    <img src="Assets/images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg" alt="Picture of the food menu">
+                                </div>
+                                <div class="card__link__description">
+                                    <div class="card__link__description__info">
+                                        <h2 class="card__link__description__info__title">Bastille</h2>
+                                        <p class="card__link__description__info__location">New York</p>
+                                    </div>
+                                    <i class="heart" >
+                                        <i class="far fa-heart heart__icon"></i>
+                                        <i class="fas fa-heart heart__icon heart__icon-solid"></i>
+                                    </i>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="card">
+                            <a class="card__link" href="LINK TO PAGE">
+                                <div class="card__link__image">
+                                    <img src="Assets/images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg" alt="Picture of the food menu">
+                                </div>
+                                <div class="card__link__description">
+                                    <div class="card__link__description__info">
+                                        <h2 class="card__link__description__info__title">Le Gourmand</h2>
+                                        <p class="card__link__description__info__location">New York</p>
+                                    </div>
+                                    <i class="heart" >
+                                        <i class="far fa-heart heart__icon"></i>
+                                        <i class="fas fa-heart heart__icon heart__icon-solid"></i>
+                                    </i>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <div class="footer">
+                <div class="footer__logo">
+                    <img src="Assets/images/logo/ohmyfood.png"> 
+                </div>
+                <ul class="footer__list">
+                    <li><a href="#"><i class="fas fa-utensils footer__list__l-1"></i>Suggest a restaurant</a></li>
+                    <li><a href="#"><i class="fas fa-hands-helping footer__list__l-2"></i>Become a partner</a></li>
+                    <li><a href="#" class="footer__list__l-3">Legal</a></li>
+                    <li><a href="mailto:webmaster@example.com" class="footer__list__l-4">Contact</a></li>
+                </ul>
+            </div>
+        </footer>        
+    </div>
+</body>
+</html> 
