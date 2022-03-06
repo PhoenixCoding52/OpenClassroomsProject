@@ -126,7 +126,12 @@
     -webkit-box-shadow: 0px 5px 15px -5px #757575;
             box-shadow: 0px 5px 15px -5px #757575;
   }
+
+  .btn.btn-main:hover {
+    color: #9356DC;
+  }
   
+    
   .home-btn {
     color: #353535;
     font-size: 20px;
